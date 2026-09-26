@@ -1,0 +1,18 @@
+{
+  "bad_span_code": "E_BAD_SPAN",
+  "budget": 1,
+  "columns": 4,
+  "applied": ["g1"],
+  "cells": [
+    {"id": "c1", "row": 0, "col": 0, "rowspan": 2, "colspan": 1, "text": "A"},
+    {"id": "c2", "row": 0, "col": 1, "rowspan": 1, "colspan": 1, "text": "B"},
+    {"id": "c3", "row": 0, "col": 2, "rowspan": 1, "colspan": 2, "text": "C"},
+    {"id": "c4", "row": 2, "col": 2, "rowspan": 1, "colspan": 1, "text": "D"},
+    {"id": "c5", "row": 2, "col": 3, "rowspan": 1, "colspan": 1, "text": "E"}
+  ],
+  "edits": [
+    {"edit_id": "g1", "cell": "c5", "row": 2, "col": 3, "rowspan": 1, "colspan": 1, "text": "E"},
+    {"edit_id": "g2", "cell": "c1", "row": 0, "col": 0, "rowspan": 3, "colspan": 2, "text": "A"},
+    {"edit_id": "g3", "cell": "c6", "row": 3, "col": 0, "rowspan": 1, "colspan": 1, "text": "F"}
+  ]
+}
